@@ -2,7 +2,8 @@
   "name": "dart-file-name-fixer",
   "displayName": "Dart File Name Fixer",
   "description": "An Extension that converts PascalCase.dart files to lower_case.dart",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "HossamGamal",
   "engines": {
     "vscode": "^1.89.0"
   },
@@ -18,6 +19,10 @@
         "title": "Fix All File Names"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hossamgamal-1/vscode_extenstion_dart_file_name_fixer"
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
